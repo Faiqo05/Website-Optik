@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/glasses.png" type="image/x-icon">
 </head>
 <body>
     <!-- Header & Navbar -->
@@ -40,7 +41,9 @@
                 <p>Optika Vision menyediakan kacamata berkualitas dengan lensa terbaik untuk kenyamanan penglihatan Anda. Temukan gaya yang sesuai dengan kepribadian Anda.</p>
                 <div class="hero-btns">
                     <a href="#products" class="btn">Lihat Koleksi</a>
-                    <a href="#contact" class="btn btn-accent">Konsultasi Gratis</a>
+                    <a href="https://wa.me/6282139309620?text=Halo%20Optika%20Vision,%20saya%20ingin%20konsultasi%20tentang%20kacamata" class="btn btn-accent" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Konsultasi via WhatsApp
+                    </a>
                 </div>
             </div>
         </div>
@@ -158,45 +161,78 @@
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h4>Alamat</h4>
-                            <p>Jl. Matahari No. 123, Jakarta Pusat</p>
+                            <p>Kalijaten 1B, Taman, Sidoarjo</p>
                         </div>
                     </div>
                     <div class="contact-detail">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Telepon</h4>
-                            <p>(021) 555-1234</p>
+                            <p>+62 821-3930-9620</p>
                         </div>
                     </div>
                     <div class="contact-detail">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>Email</h4>
-                            <p>info@optikavision.com</p>
+                            <p>muhammadfaiqohabibi7@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-detail">
                         <i class="fas fa-clock"></i>
                         <div>
                             <h4>Jam Operasional</h4>
-                            <p>Senin - Jumat: 09:00 - 20:00</p>
-                            <p>Sabtu - Minggu: 09:00 - 17:00</p>
+                            <p>Setiap Hari</p>
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <h3>Konsultasi Gratis</h3>
-                    <form id="consultationForm">
-                        <input type="text" placeholder="Nama Lengkap" required>
-                        <input type="email" placeholder="Alamat Email" required>
-                        <input type="tel" placeholder="Nomor Telepon" required>
-                        <textarea placeholder="Pesan Anda" required></textarea>
-                        <button type="submit" class="btn">Kirim Pesan</button>
-                    </form>
+                <div class="contact-whatsapp">
+                    <div class="whatsapp-card">
+                        <div class="whatsapp-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>Konsultasi via WhatsApp</h3>
+                        <p>Hubungi kami langsung via WhatsApp untuk konsultasi cepat dan pemesanan produk.</p>
+                        
+                        <div class="whatsapp-numbers">
+                            <div class="whatsapp-number">
+                                <i class="fas fa-user"></i>
+                                <div>
+                                    <h4>Moh. Kosim, S.Pd</h4>
+                                    <a href="https://wa.me/6282139309620" class="whatsapp-link" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> +62 821-3930-9620
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="whatsapp-number">
+                                <i class="fas fa-user-md"></i>
+                                <div>
+                                    <h4>Muhammad Fa'iqo Habibi</h4>
+                                    <a href="https://wa.me/62881026892854" class="whatsapp-link" target="_blank">
+                                        <i class="fab fa-whatsapp"></i> +62 881-0268-92854
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="whatsapp-cta">
+                            <p>Klik tombol di bawah untuk langsung chat di WhatsApp:</p>
+                            <a href="https://wa.me/6282139309620?text=Halo%20Optika%20Vision,%20saya%20melihat%20website%20Anda%20dan%20ingin%20bertanya%20tentang:" class="whatsapp-btn" target="_blank">
+                                <i class="fab fa-whatsapp"></i> Chat Sekarang
+                            </a>
+                            <p class="whatsapp-note">Buka jam 09:00 - 20:00 WIB</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6282139309620" class="floating-whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
     <!-- Footer -->
     <footer>
@@ -207,6 +243,11 @@
                         <i class="fas fa-glasses"></i> Optika Vision
                     </a>
                     <p>Optika Vision merupakan toko optik terpercaya yang menyediakan berbagai jenis kacamata dengan kualitas terbaik untuk seluruh keluarga.</p>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. Matahari No. 123, Jakarta Pusat</p>
+                        <p><i class="fas fa-phone"></i> (021) 555-1234</p>
+                        <p><i class="fas fa-envelope"></i> info@optikavision.com</p>
+                    </div>
                 </div>
                 <div class="footer-links">
                     <h4>Tautan Cepat</h4>
@@ -224,12 +265,18 @@
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/6282139309620" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                    <div class="footer-whatsapp">
+                        <h4>WhatsApp</h4>
+                        <a href="https://wa.me/6282139309620" class="footer-whatsapp-btn" target="_blank">
+                            <i class="fab fa-whatsapp"></i> Chat via WhatsApp
+                        </a>
                     </div>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 Optika Vision. Semua hak dilindungi.</p>
+                <p>&copy; <span id="current-year">2023</span> Optika Vision. Semua hak dilindungi.</p>
             </div>
         </div>
     </footer>
